@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+       
+    </style>
+    <script>
+        let main=document.createElement("div");
+        document.body.appendChild(main);
+        main.style.height="97vh"
+        main.style.display="flex";
+        main.style.justifyContent="center";
+        main.style.backgroundColor="pink"
+
+        main.style.alignItems="center"
+
+        let div1=document.createElement("div");
+        main.appendChild(div1);
+        div1.style.border="2px solid transparent";
+        div1.style.width="200px";
+        div1.style.borderRadius="40px";
+        div1.style.display="flex";
+        div1.style.flexDirection="column";
+        div1.style.alignItems="center";
+        div1.style.padding="20px";
+        div1.style.backgroundColor="#ffff";
+        div1.style.boxShadow="3px 3px 10px white ";
+
+        let ph=document.createElement("img");
+        div1.appendChild(ph);
+        ph.setAttribute("src","https://cdn.siasat.com/wp-content/uploads/2023/07/rashmika-mandanna.jpg");
+        ph.style.width="90%";
+        ph.style.height="70%";
+        ph.style.borderRadius="40px";
+        div1.style.boxShadow="3px 3px 10px white ";
+
+        let nm=document.createElement("h3");
+        div1.appendChild(nm);
+        nm.innerHTML="Rashmika Mandhanna";
+        nm.style.fontFamily="arial";
+
+        let ag=document.createElement("p");
+        div1.appendChild(ag);
+        ag.innerHTML="Age: 26";
+        ag.style.fontFamily="arial";
+
+        
+        let bg=document.createElement("p");
+        div1.appendChild(bg);
+        bg.innerHTML="Blood Group: B+";
+        bg.style.fontFamily="arial";
+
+    </script>
+</body>
+</html>
